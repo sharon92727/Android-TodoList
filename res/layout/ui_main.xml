@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_width="162dp"
+        android:layout_height="45dp"
+        android:layout_x="101dp"
+        android:layout_y="206dp"
+        android:background="@drawable/button_shape"
+        android:text="@string/create_button" />
+
+    <Button
+            android:id="@+id/btn_create_group"
+            android:layout_width="162dp"
+            android:layout_height="45dp"
+            android:layout_x="101dp"
+            android:layout_y="126dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/create_group_btn_text" />
+
+    <Button
+            android:id="@+id/btn_view_tasks"
+            android:layout_width="162dp"
+            android:layout_height="45dp"
+            android:layout_x="101dp"
+            android:layout_y="276dp"
+            android:background="@drawable/button_shape"
+            android:text="@string/view_button" />
+
+</AbsoluteLayout>

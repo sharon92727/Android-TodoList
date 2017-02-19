@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/AbsoluteLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+        <!-- <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="10dp"
+       android:layout_y="3dp"
+       android:text="@string/Task_title"
+       android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+        <EditText
+                android:id="@+id/editText1"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_x="14dp"
+                android:layout_y="14dp"
+                android:ems="10"
+                android:hint="@string/Task_title"
+                android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <!--<TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="7dp"
+                android:layout_y="96dp"
+                android:text="@string/Task_description"
+                android:textAppearance="?android:attr/textAppearanceMedium" />-->
+
+        <EditText
+                android:id="@+id/editText2"
+                android:layout_width="292dp"
+                android:layout_height="108dp"
+                android:layout_x="14dp"
+                android:layout_y="84dp"
+                android:ems="10"
+                android:hint="@string/Task_description"
+                android:inputType="textMultiLine"
+                android:singleLine="false"
+                android:autoLink="all"
+                android:gravity="top"
+                android:lines="5"
+                />
+
+        <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="14dp"
+                android:layout_y="216dp"
+                android:text="@string/Task_priority"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RatingBar
+                android:id="@+id/ratingBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:isIndicator="false"
+                android:layout_x="144dp"
+                android:layout_y="206dp"
+                android:stepSize="1"
+                android:rating="2"
+                android:numStars="3" />
+
+
+        <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="14dp"
+                android:layout_y="296dp"
+                android:text="@string/Task_Group"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+                android:id="@+id/groups_spinner"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:layout_x="114dp"
+                android:textColor="#FF8B1500"
+                android:layout_y="283dp"
+                android:gravity="center"
+                />
+
+        <Button
+                android:id="@+id/btn_set_date"
+                android:layout_width="107dp"
+                android:layout_height="34dp"
+                android:layout_x="54dp"
+                android:layout_y="358dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/Set_date" />
+
+        <Button
+                android:id="@+id/btn_set_time"
+                android:layout_width="107dp"
+                android:layout_height="34dp"
+                android:layout_x="172dp"
+                android:layout_y="358dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button_shape"
+                android:text="Set Time">
+        </Button>
+
+        <Button
+                android:id="@+id/btn_update_task"
+                android:layout_width="107dp"
+                android:layout_height="34dp"
+                android:layout_x="54dp"
+                android:layout_y="414dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/btn_edit" />
+
+        <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="107dp"
+                android:layout_height="34dp"
+                android:layout_x="172dp"
+                android:layout_y="414dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/btn_cancel_task" />
+
+
+    </AbsoluteLayout>
+</ScrollView>

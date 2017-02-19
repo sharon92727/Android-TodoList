@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+        >
+    <!-- Single menu item
+         Set id, icon and Title for each menu item
+           -->
+
+    <item android:id="@+id/menu_sort_by_date"
+          android:icon="@drawable/calendar"
+          android:title="Sort By Date" />
+
+    <item android:id="@+id/menu_sort_by_priority"
+          android:icon="@drawable/priority"
+          android:title="Priority-Wise" />
+
+    <item android:id="@+id/menu_show_tasks"
+          android:icon="@drawable/todo"
+          android:title="Show Uncompleted" />
+
+    <item android:id="@+id/menu_show_all_tasks"
+          android:icon="@drawable/todo"
+          android:title="Show All" />
+
+    <item android:id="@+id/menu_completed_tasks"
+          android:icon="@drawable/completed_task"
+          android:title="Show Completed" />
+
+    <item android:id="@+id/menu_find_tasks_by_location"
+          android:icon="@drawable/location"
+          android:title="Show tasks by Location" />
+
+
+</menu>

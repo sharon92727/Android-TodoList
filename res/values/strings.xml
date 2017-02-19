@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DroidIt</string>
+    <string name="add_button_name">Add new todo</string>
+    <string name="create_button">Create Task</string>
+    <string name="view_button"> View Task</string>
+    <string name="main_activity">Home</string>
+    <string name="Task_description">Task description</string>
+    <string name="Task_title">Task Title</string>
+    <string name="Task_priority">Task Priority</string>
+    <string name="Set_date">Set Date</string>
+    <string name="btn_Create">Create Task</string>
+    <string name="btn_cancel_task">Cancel</string>
+    <string name="create_group_btn_text">Create Group</string>
+    <string name="group_name">Group Name</string>
+    <string name="Set_location">Set Location</string>
+    <string name="btn_Create_group">Create Group</string>
+    <string name="Task_Group">Group</string>
+    <string name="btn_edit">Update Info</string>
+
+</resources>

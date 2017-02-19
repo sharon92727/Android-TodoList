@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/AbsoluteLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+        <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="7dp"
+                android:layout_y="6dp"
+                android:text="@string/group_name"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+                android:id="@+id/editText1"
+                android:layout_width="292dp"
+                android:layout_height="wrap_content"
+                android:layout_x="14dp"
+                android:layout_y="34dp"
+                android:ems="0"
+                android:hint="@string/group_name"
+                android:singleLine="true" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+                android:id="@+id/btn_set_location"
+                android:layout_width="107dp"
+                android:layout_height="34dp"
+                android:layout_x="102dp"
+                android:layout_y="104dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/Set_location" />
+
+
+        <Button
+                android:id="@+id/btn_group_cancel"
+                android:layout_width="107dp"
+                android:layout_height="36dp"
+                android:layout_x="186dp"
+                android:layout_y="163dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/btn_cancel_task" />
+
+        <Button
+                android:id="@+id/btn_create_group"
+                android:layout_width="116dp"
+                android:layout_height="36dp"
+                android:layout_x="21dp"
+                android:layout_y="163dp"
+                android:background="@drawable/button_shape"
+                android:text="@string/btn_Create_group" />
+
+    </AbsoluteLayout>
+</ScrollView>
